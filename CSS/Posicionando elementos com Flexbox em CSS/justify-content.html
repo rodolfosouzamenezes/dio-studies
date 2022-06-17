@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - Justify content</title>
+
+    <style>
+        .flex-container {
+            display: flex;
+            border: 2px solid black;
+            max-width: 500px;
+            margin: 0;
+        }
+
+        .flex-item {
+            text-align: center;
+            background-color: #730202;
+            margin: 5px;
+            color: white;
+            font-size: 20px;
+            min-width: 40px;
+            line-height: 40px;
+        }
+
+        .flex-start {
+            justify-content: flex-start;
+        }
+
+        .flex-end {
+            justify-content: flex-end;
+        }
+
+        .space-between {
+            justify-content: space-between;
+        }
+    
+        .space-around {
+            justify-content: space-around;
+        }
+
+        .center {
+            justify-content: center;
+        }
+
+        .column {
+            flex-direction: column;
+            height: 350px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1>
+        Row
+    </h1>
+    <p>
+        Flex-start
+    </p>
+    <div class="flex-container flex-start">
+        <div class="flex-item">1</div>
+        <div class="flex-item">2</div>
+        <div class="flex-item">3</div>
+        <div class="flex-item">4</div>
+    </div>
+
+    <p>
+        Flex-end
+    </p>
+    <div class="flex-container flex-end">
+        <div class="flex-item">1</div>
+        <div class="flex-item">2</div>
+        <div class="flex-item">3</div>
+        <div class="flex-item">4</div>
+    </div>
+
+    <p>
+        Center
+    </p>
+    <div class="flex-container center">
+        <div class="flex-item">1</div>
+        <div class="flex-item">2</div>
+        <div class="flex-item">3</div>
+        <div class="flex-item">4</div>
+    </div>
+
+    <p>
+        Space-between
+    </p>
+    <div class="flex-container space-between">
+        <div class="flex-item">1</div>
+        <div class="flex-item">2</div>
+        <div class="flex-item">3</div>
+        <div class="flex-item">4</div>
+    </div>
+
+    <p>
+        Space-around
+    </p>
+    <div class="flex-container space-around">
+        <div class="flex-item">1</div>
+        <div class="flex-item">2</div>
+        <div class="flex-item">3</div>
+        <div class="flex-item">4</div>
+    </div>
+
+    <h1>
+        Column
+    </h1>
+
+    <p>
+        Flex-start
+    </p>
+    <div class="flex-container flex-start column">
+        <div class="flex-item">1</div>
+        <div class="flex-item">2</div>
+        <div class="flex-item">3</div>
+        <div class="flex-item">4</div>
+    </div>
+
+    <p>
+        Flex-end
+    </p>
+    <div class="flex-container flex-end column">
+        <div class="flex-item">1</div>
+        <div class="flex-item">2</div>
+        <div class="flex-item">3</div>
+        <div class="flex-item">4</div>
+    </div>
+
+    <p>
+        Center
+    </p>
+    <div class="flex-container center column">
+        <div class="flex-item">1</div>
+        <div class="flex-item">2</div>
+        <div class="flex-item">3</div>
+        <div class="flex-item">4</div>
+    </div>
+
+    <p>
+        Space-between
+    </p>
+    <div class="flex-container space-between column">
+        <div class="flex-item">1</div>
+        <div class="flex-item">2</div>
+        <div class="flex-item">3</div>
+        <div class="flex-item">4</div>
+    </div>
+
+    <p>
+        Space-around
+    </p>
+    <div class="flex-container space-around column">
+        <div class="flex-item">1</div>
+        <div class="flex-item">2</div>
+        <div class="flex-item">3</div>
+        <div class="flex-item">4</div>
+    </div>
+
+</body>
+
+</html>
